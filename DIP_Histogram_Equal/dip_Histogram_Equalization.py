@@ -62,5 +62,5 @@ def histogram_equalization(img_path):
     plt.show()
 
 if __name__ == '__main__':
-    img_path = 'images/Lena.png'
+    img_path = './images/Lena.png'
     histogram_equalization(img_path)
